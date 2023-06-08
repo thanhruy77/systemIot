@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable-v31/vien.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/1top_background.xml" value="0.1485" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/anhmaybom.xml" value="0.152" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/backgound_button.xml" value="0.2555" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_white_conner_10_border_gray.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_white_conner_16.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_yellow_conner_10.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_yellow_conner_11.xml" value="0.226" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_yellow_conner_15.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_yellow_conner_16_top_left_top_right.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_yellow_conner_16_top_left_top_right1.xml" value="0.226" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/button.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/circle_background.xml" value="0.241" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/circle_background1.xml" value="0.1485" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/custom_edittext.xml" value="0.187" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/den.xml" value="0.2225" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/gray_background.xml" value="0.2555" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/radiuslogin.xml" value="0.187" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/setting.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/title_setting.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/top_background.xml" value="0.165" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/top_background1.xml" value="0.1485" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/vien.xml" value="0.1515" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/vien1.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/vien2.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/vien3.xml" value="0.165" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/viennhapdoam.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/drawable/white_background.xml" value="0.241" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/dang_nhap.xml" value="0.2" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/doimk.xml" value="0.25" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_main.xml" value="0.264" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_setting.xml" value="0.22826086956521738" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/item1.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/item2.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/item3.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/item4.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/item5.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/layoutsetting.xml" value="0.264" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/qmk.xml" value="0.25" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/setting.xml" value="0.22826086956521738" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/suatn.xml" value="0.21052631578947367" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/thanhtoan.xml" value="0.21052631578947367" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/xoa.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1615" />
+        <entry key="..\:/Tai Lieu Hoc/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/mipmap-anydpi-v26/tuoicay.xml" value="0.151" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/drawable/bg_white_conner_16.xml" value="0.182" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/drawable/circle_background1.xml" value="0.182" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/activity_main.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/dang_nhap.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/doimk.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_main.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_profile.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_setting.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/layoutsetting.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/qmk.xml" value="0.2222222222222222" />
+        <entry key="..\:/Tai Lieu Hoc/DoAn4/DoAn4-TuoiCay/DA4HETHONGTUOICAY/app/src/main/res/layout/thanhtoan.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/THANH DUY/Documents/Do An 4/Do An 4/DA4HETHONGTUOICAY/app/src/main/res/layout/fragment_main.xml" value="0.2222222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

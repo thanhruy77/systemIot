@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1091959359503",
+    "firebase_url": "https://hethongtuoicayesp32-default-rtdb.firebaseio.com",
+    "project_id": "hethongtuoicayesp32",
+    "storage_bucket": "hethongtuoicayesp32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091959359503:android:ca7f03583dc332933a7b7a",
+        "android_client_info": {
+          "package_name": "com.example.da4_hethongtuoicay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091959359503-adf3h7ria60tu2k782567652p637u2l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_9Yk_aAxgh0AdNhx0EeC4xucZadWmdSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091959359503-adf3h7ria60tu2k782567652p637u2l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

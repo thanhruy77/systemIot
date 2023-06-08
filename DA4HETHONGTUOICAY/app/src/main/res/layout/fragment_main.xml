@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A7DB"
+    android:elevation="3dp"
+    android:textAlignment="center"
+    tools:context=".Main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/wifi"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/diswifi"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.728"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:text=" HOME"
+                        android:drawableLeft="@drawable/house1"
+                        android:fontFamily="@font/bungee"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.498"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                        tools:ignore="MissingConstraints" />
+
+                    <LinearLayout
+                        android:id="@+id/linear1"
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="24dp"
+                        android:background="@drawable/white_background"
+                        android:elevation="3dp"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/name"
+                        >
+
+
+                        <TextView
+                            android:text="BỘ GIÁM SÁT"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/red"
+                            android:textSize="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/viewlop"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="  Lưu Lượng:"
+                                android:textColor="#182693"
+                                android:textSize="18sp"  />
+
+                            <TextView
+                                android:id="@+id/nhan1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="nuoc"
+                                android:textStyle="bold"
+                                android:textAlignment="viewEnd"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:background="@drawable/flowwater"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.728"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="4dp"
+                            android:background="#D9D9D9"
+                            tools:layout_marginEnd="7dp"
+                            tools:layout_marginStart="7dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView110"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="  Lượng Nước:"
+                                android:textColor="#182693"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/doam"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="tln"
+                                android:textAlignment="viewEnd"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:background="@drawable/sea"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.728"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="4dp"
+                            android:background="#D9D9D9"
+                            tools:layout_marginEnd="7dp"
+                            tools:layout_marginStart="7dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="  Độ ẩm đất:"
+                                android:textColor="#182693"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/doamdat"
+                                android:layout_width="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="doam"
+                                android:textAlignment="viewEnd"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:background="@drawable/humidity"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.728"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="4dp"
+                            android:background="#D9D9D9"
+                            tools:layout_marginEnd="7dp"
+                            tools:layout_marginStart="7dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="  Độ ẩm tối đa:"
+                                android:textColor="#182693"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/doamgioihan"
+                                android:layout_width="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="gioihan"
+                                android:textAlignment="viewEnd"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:background="@drawable/warning"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.728"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view4"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="4dp"
+                            android:background="#D9D9D9"
+                            tools:layout_marginEnd="7dp"
+                            tools:layout_marginStart="7dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="  Mức nước:"
+                                android:textColor="#182693"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/mucnuoc"
+                                android:layout_width="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="mucnuoc"
+                                android:textAlignment="viewEnd"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:background="@drawable/waterlevel"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.728"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </LinearLayout>
+<!--                        <View-->
+<!--                            android:id="@+id/view5"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="1dp"-->
+<!--                            android:layout_margin="4dp"-->
+<!--                            android:background="#D9D9D9"-->
+<!--                            tools:layout_marginEnd="7dp"-->
+<!--                            tools:layout_marginStart="7dp" />-->
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear2"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="24dp"
+                        android:background="@drawable/white_background"
+                        android:elevation="3dp"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/linear1">
+
+                        <TextView
+                            android:id="@+id/textdieukhien"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:text="BỘ ĐIỀU KHIỂN"
+                            android:textColor="@color/red"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            tools:layout_editor_absoluteY="428dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintTop_toBottomOf="@id/textdieukhien">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0.3333"
+                                android:background="@drawable/gray_background"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="12dp"
+                                    android:background="@drawable/circle_background1">
+
+                                    <Button
+                                        android:id="@+id/bat"
+                                        android:layout_width="50dp"
+                                        android:layout_height="47dp"
+                                        android:layout_marginTop="12dp"
+                                        android:background="@drawable/pump"
+                                        app:flow_verticalAlign="center"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.48"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:text="MÁY BƠM"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0.3333"
+                                android:background="@drawable/gray_background"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="12dp"
+                                    android:background="@drawable/circle_background1">
+
+                                    <Button
+                                        android:id="@+id/batled"
+                                        android:layout_width="55dp"
+                                        android:layout_height="55dp"
+                                        android:layout_marginTop="8dp"
+                                        android:background="@drawable/led"
+                                        app:flow_verticalAlign="center"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <TextView
+                                    android:id="@+id/textView7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:text="ĐÈN LED"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0.3333"
+                                android:background="@drawable/gray_background"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="12dp"
+                                    android:background="@drawable/circle_background1">
+
+                                    <Button
+                                        android:id="@+id/setup"
+                                        android:layout_width="55dp"
+                                        android:layout_height="55dp"
+                                        android:layout_marginTop="8dp"
+                                        android:background="@drawable/setting"
+                                        app:flow_verticalAlign="center"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:text="ĐỘ ẨM"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

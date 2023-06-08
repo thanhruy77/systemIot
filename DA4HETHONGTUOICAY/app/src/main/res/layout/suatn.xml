@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_conner_16"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@drawable/bg_yellow_conner_16_top_left_top_right1"
+        android:text="Sửa Thông Tin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/fixlast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên"
+            android:background="@drawable/bg_white_conner_10_border_gray"
+            android:padding="12dp"  />
+        <EditText
+            android:id="@+id/fixten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_white_conner_10_border_gray"
+            android:padding="12dp"  />
+        <EditText
+            android:id="@+id/fixdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh"
+            android:background="@drawable/bg_white_conner_10_border_gray"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"  />
+        <EditText
+            android:id="@+id/fixsdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Số điện thoại"
+            android:inputType="number"
+            android:background="@drawable/bg_white_conner_10_border_gray"
+            android:padding="12dp"  />
+
+        <EditText
+            android:id="@+id/fixdiachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_white_conner_10_border_gray"
+            android:hint="Địa chỉ"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/fixemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_white_conner_10_border_gray"
+            android:hint="Email"
+            android:padding="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/no"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:background="@drawable/bg_yellow_conner_11"
+
+                android:text="Hủy Bỏ"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:id="@+id/yes"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_yellow_conner_11"
+                android:text="Thay Đổi"/>
+
+
+         </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
